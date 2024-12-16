@@ -1,0 +1,35 @@
+#list{
+   padding: 3px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.body2{
+    background-image: url(https://wallpapercave.com/wp/wp2506819.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading1{
+    font-size: 2em; 
+    color: #410e0e; 
+    text-align: center; 
+    animation: fadeIn 2s ease-in-out, slideIn 2s;
+    font-weight: bolder;
+}
+
+@keyframes fadeIn { 
+    0% { opacity: 0; 
+
+    } 100% 
+    { opacity: 1;
+
+    } 
+}
+@keyframes slideIn { 
+    0% { transform: translateY(-100%); 
+    
+    } 
+    100% { transform: translateY(0); 
+
+    } 
+}

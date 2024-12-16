@@ -1,0 +1,26 @@
+.body3{
+    margin: 0;
+    padding: 0;
+    background-color: coral;
+}
+#title1{
+text-align: center;
+color: indigo;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.container {
+    padding: 1em;
+  }
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+  }
+  .todo-item input[type="checkbox"] {
+    margin-right: 0.5em;
+  }
+  .completed {
+    text-decoration: none;
+    color: white;
+  }
